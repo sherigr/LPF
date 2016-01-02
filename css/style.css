@@ -1,0 +1,171 @@
+
+@import url(https://fonts.googleapis.com/css?family=Chivo:400,900,400italic,900italic);
+
+body {
+	/*padding-top: 70px;*/
+	padding-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+	overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.navbar-inverse {
+	background-color: #001933;
+	border-color: #001933;
+}
+
+.navbar-default .navbar-brand {
+	font-family: 'Chivo', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	font-style: italic;
+	color: #F5F5F5;
+}
+
+.navbar-default:hover .navbar-brand:hover {
+color: #758290;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #F5F5F5;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #758290;
+}
+
+/*-------------------------------
+  Jumbotron
+--------------------------------------------- */
+.jumbotron {
+	background-image: 
+    -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/field.jpg);
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../img/shadowMount.jpg);
+	/* background-image: url(../img/shadowMount.jpg); */
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+}
+
+.jumbotron h1 {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.jumbotron p {
+	padding-top: 30px;
+	text-align: center;
+	/*color: #D9853B;*/
+	color: #D9853B;
+}
+
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.container.marketing {
+	padding-bottom: 25px;
+}
+
+.small-icons {
+  margin-top:0px;
+  font-size: 24px;
+/*  height: 40px;
+  width: 40px;*/
+  height: 50px;
+  width: 50px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.icon-round {
+  margin-top:30px;
+  font-size: 24px;
+/*  height: 68px;
+  width: 68px;*/
+  height: 78px;
+  width: 78px;
+/*  line-height: 68px;*/
+  line-height: 78px;
+  color: #fff;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.bk-color-blue {
+    color: #BB00BB;
+}
+
+.bk-color-orange-red {
+  background-color: #C63D0F;
+}
+
+.bk-color-orange {
+	background-color: #FFA500;
+}
+
+.bk-color-purple {
+  background-color: #4D1B7B;
+}
+
+
+/*-------------------------------
+  Workout Image
+--------------------------------------------- */
+ .workout {
+ 	width: 100%;
+ /*	background-image: url(../img/workout1.jpg);*/
+ 	background: url(../img/workout2.jpg) no-repeat;
+ 	background-position: center;
+	background-size: cover;
+	height: 400px;
+	padding: 0;
+ }
+
+/*-------------------------------
+  About
+--------------------------------------------- */
+.about {
+	padding-top: 50px; 
+	text-align: center;	
+}
