@@ -4,9 +4,12 @@
 body {
 	/*padding-top: 70px;*/
 	padding-top: 30px;
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Lato', sans-serif; 
   font-size: 14px;
-  font-weight: 400;
+  /*font-weight: 400;*/
+  font-weight: 300;
+  color: #555;
 	overflow-x: hidden;
 }
 
@@ -17,7 +20,7 @@ h4,
 h5,
 h6 {
   font-weight: 400px;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
 }
 
 
@@ -27,7 +30,7 @@ h6 {
 }
 
 .navbar-default .navbar-brand {
-	font-family: 'Chivo', sans-serif;
+	font-family: 'Lato', sans-serif; 
 	font-weight: 400;
 	font-size: 36px;
 	font-style: italic;
@@ -91,14 +94,19 @@ color: #758290;
   font-weight: normal;
 }
 .marketing .col-lg-4 p {
+  padding-top: 20px;
   margin-right: 10px;
   margin-left: 10px;
+  line-height: 28px;
 }
 
 .container.marketing {
 	padding-bottom: 25px;
 }
 
+/*-------------------------------
+  ICONS
+--------------------------------------------- */
 .small-icons {
   margin-top:0px;
   font-size: 24px;
@@ -162,10 +170,147 @@ color: #758290;
 	padding: 0;
  }
 
+ .parallax {
+
+ }
+
 /*-------------------------------
   About
 --------------------------------------------- */
 .about {
 	padding-top: 50px; 
-	text-align: center;	
 }
+
+.about h1 {
+  padding-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  /*color: #333;*/
+}
+
+.about p {
+  line-height: 28px;
+/*  padding-top: 20px;
+  padding-bottom: 20px;*/
+  padding: 20px 10px 20px 10px;
+}
+
+/*.about hr {
+  border-top: 1px solid #E2E2E2 !important;
+}*/
+
+hr {
+  border-top: 1px solid #E2E2E2 !important;
+}
+
+/*-------------------------------
+  Sunset Image
+--------------------------------------------- */
+ .sunset {
+  width: 100%;
+ /* background-image: url(../img/workout1.jpg);*/
+  background: url(../img/sunset.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  padding: 0;
+ }
+
+ .sunset h1 {
+  padding-top: 100px;
+  color: #ffffff;
+ }
+
+ .sunset h3 {
+  padding-top: 50px;
+  color: #ffffff;
+ }
+
+/* ------------------------- 
+  Approach
+--------------------------------------------- */
+
+.approach {
+  padding-top: 50px; 
+}
+
+.approach h2 {
+  padding-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+.approach p {
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.approach hr {
+  padding-bottom: 15px;
+}
+
+/* ------------------------- 
+  Yoga Picture
+--------------------------------------------- */
+ .yoga {
+  width: 100%;
+ /* background-image: url(../img/workout1.jpg);*/
+  background: url(../img/yoga.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  padding: 0;
+ }
+
+.yoga h1 {
+  padding-top: 100px;
+  color: #ffffff;
+ }
+
+ .yoga h3 {
+  padding-top: 50px;
+  color: #ffffff;
+ }
+
+/* ------------------------- 
+  Contact
+--------------------------------------------- */
+.contact {
+  padding-bottom: 20px;
+}
+
+.contact h2 {
+  padding-top: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.contact-icons {
+  padding-right: 25px;
+  line-height: 40px;
+}
+
+.contact a {
+  color: #2A2A2A;
+}
+
+#fb-icon {
+  color: #3A5795;
+}
+
+.contact hr {
+  padding-bottom: 20px;
+}
+
+/* ------------------------- 
+  Footer
+--------------------------------------------- */
+#footer {
+  padding: 20px;
+  background-color: #001933;
+  font-family: 'Lato', sans-serif; 
+  color: #F5F5F5;
+  text-align: center;
+  margin-top: 0;
+  padding-right:50px;
+}
+
