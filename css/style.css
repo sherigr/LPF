@@ -60,7 +60,8 @@ color: #758290;
       rgba(0, 0, 0, 0.4), 
       rgba(0, 0, 0, 0.4)
     ),
-    url(../img/shadowMount.jpg);
+    url(../img/shadowmount.jpg); 
+
 	/* background-image: url(../img/shadowMount.jpg); */
 	background-position: center;
 	background-size: cover;
@@ -78,9 +79,6 @@ color: #758290;
 	/*color: #D9853B;*/
 	color: #D9853B;
 }
-
-
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -162,17 +160,53 @@ color: #758290;
 --------------------------------------------- */
  .workout {
  	width: 100%;
- /*	background-image: url(../img/workout1.jpg);*/
- 	background: url(../img/workout2.jpg) no-repeat;
+/* 	background: url(../img/workout2.jpg) no-repeat;*/
  	background-position: center;
 	background-size: cover;
 	height: 400px;
 	padding: 0;
  }
 
- .parallax {
+ .workout h1 {
+  padding-top: 150px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  /*color: #333;*/
+}
 
+ /*-------------------------------
+  Parallax - css version
+--------------------------------------------- */
+
+ /*.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
  }
+
+ .parallax-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax-layer-base {
+  transform: translateZ(0);
+}
+
+.parallax-layer-back {
+  transform: translateZ(-1px) scale(2);
+}
+
+.parallax-group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}*/
 
 /*-------------------------------
   About
@@ -209,7 +243,7 @@ hr {
  .sunset {
   width: 100%;
  /* background-image: url(../img/workout1.jpg);*/
-  background: url(../img/sunset.jpg) no-repeat;
+ /* background: url(../img/sunset.jpg) no-repeat;*/
   background-position: center;
   background-size: cover;
   height: 400px;
@@ -254,7 +288,7 @@ hr {
  .yoga {
   width: 100%;
  /* background-image: url(../img/workout1.jpg);*/
-  background: url(../img/yoga.jpg) no-repeat;
+/*  background: url(../img/yoga.jpg) no-repeat;*/
   background-position: center;
   background-size: cover;
   height: 400px;
@@ -270,6 +304,17 @@ hr {
   padding-top: 50px;
   color: #ffffff;
  }
+
+
+/* ------------------------- 
+  Testimonial
+--------------------------------------------- */
+ .testimony h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  padding: 20px 0 20px 0;
+ }
+
 
 /* ------------------------- 
   Contact
@@ -293,7 +338,7 @@ hr {
   color: #2A2A2A;
 }
 
-#fb-icon {
+#fb-icon i {
   color: #3A5795;
 }
 
@@ -307,10 +352,19 @@ hr {
 #footer {
   padding: 20px;
   background-color: #001933;
-  font-family: 'Lato', sans-serif; 
-  color: #F5F5F5;
-  text-align: center;
   margin-top: 0;
   padding-right:50px;
 }
+
+#footer p {
+  font-family: 'Lato', sans-serif; 
+  color: #F5F5F5;
+}
+
+
+
+
+
+
+
 
