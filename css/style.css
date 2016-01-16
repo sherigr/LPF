@@ -171,6 +171,15 @@ color: #758290;
   background-color: #4D1B7B;
 }
 
+/* icons in contact section */
+.contact-icons {
+  font-size: 24px;
+}
+
+/* make email icon slightly smaller */
+#email-icon {
+  font-size: 22px;
+}
 
 /*-------------------------------
   Workout Image
