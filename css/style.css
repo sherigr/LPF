@@ -52,7 +52,7 @@ color: #758290;
 /*-------------------------------
   Jumbotron
 --------------------------------------------- */
-.jumbotron {
+/*.jumbotron {
 	background-image: 
     -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/field.jpg);
   background-image: 
@@ -60,13 +60,30 @@ color: #758290;
       rgba(0, 0, 0, 0.4), 
       rgba(0, 0, 0, 0.4)
     ),
-    url(../img/shadowmount.jpg); 
-
-	/* background-image: url(../img/shadowMount.jpg); */
-	background-position: center;
+    
+  url(../img/shadowmount.jpg); */
+/*    url(../img/mountshadow.jpg);*/  
+      
+/*	background-position: center;
 	background-size: cover;
 	height: 400px;
+}*/
+
+.jumbotron {
+/*  height: 350px;*/
+  height: 400px;
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  background:transparent;
+  background-image: 
+    -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); 
+
+  /*background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4);*/
 }
+
 
 .jumbotron h1 {
 	text-align: center;
@@ -154,6 +171,15 @@ color: #758290;
   background-color: #4D1B7B;
 }
 
+/* icons in contact section */
+.contact-icons {
+  font-size: 24px;
+}
+
+/* make email icon slightly smaller */
+#email-icon {
+  font-size: 22px;
+}
 
 /*-------------------------------
   Workout Image
